@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0e3709e-a67e-447f-ba92-3e1cbf409bc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Console/Commands/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Controllers/ExampleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Database/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Database/ModelFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Events/Event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Events/ExampleEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Jobs/ExampleJob.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Jobs/Job.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Listeners/ExampleListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Middleware/ExampleMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/Routes/Web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Payment/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/src/Components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/src/Core/Wrapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/src/Core/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/src/Init.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/src/Styles/kit.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/src/Styles/layout.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/src/Styles/widgets.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/IFrameController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/ScInit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/btValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/ecInit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/ecScOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/ecValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/pppPatch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/pppScOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/front/pppValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Controllers/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/Customer/PaypalCustomer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/Misc/PaypalCapture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/Misc/PaypalVaulting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/Order/PaypalOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/PaymentMethod/AbstractPaymentMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/PaymentMethod/PaymentMethodBT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/PaymentMethod/PaymentMethodEC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/PaymentMethod/PaymentMethodPPP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/PaymentExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/BankTransfer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/PayPal.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/Sadad.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Translations/de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Translations/en.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Translations/es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Translations/fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Translations/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Translations/it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Translations/nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Translations/pl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Translations/pt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/AccountUpdaterDailyReport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/AchMandate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/AddOn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/AddOnGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/AddressGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/AmexExpressCheckoutCard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/AndroidPayCard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/ApplePayCard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/ApplePayGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/ApplePayOptions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/AuthorizationAdjustment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/BinData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/ClientToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/ClientTokenGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/CoinbaseAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Configuration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/ConnectedMerchantPayPalStatusChanged.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/ConnectedMerchantStatusTransitioned.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/CredentialsParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/CreditCard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/CreditCardGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/CreditCardVerification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/CreditCardVerificationGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/CreditCardVerificationSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/CustomerGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/CustomerSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Descriptor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Digest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Disbursement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/DisbursementDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Discount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/DiscountGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Dispute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Dispute/EvidenceDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Dispute/StatusHistoryDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Dispute/TransactionDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Dispute/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/DisputeGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/DisputeSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/DocumentUpload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/DocumentUploadGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/EndsWithNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/EqualityNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Error/Codes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Error/ErrorCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Error/Validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Error/ValidationErrorCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Error/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/EuropeBankAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/Authentication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/Authorization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/Configuration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/Connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/DownForMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/ForgedQueryString.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/InvalidChallenge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/InvalidSignature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/NotFound.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/SSLCaFileNotFound.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/SSLCertificate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/ServerError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/TestOperationPerformedInProduction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/Timeout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/TooManyRequests.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/Unexpected.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/UpgradeRequired.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/ValidationsFailed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Exception/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/FacilitatedDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/FacilitatorDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Gateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/GrantedPaymentInstrumentUpdate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Http.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/IbanBankAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/IdealPayment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/IdealPaymentGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Instance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/IsNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/KeyValueNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MasterpassCard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Merchant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MerchantAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MerchantAccount/AddressDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MerchantAccount/BusinessDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MerchantAccount/FundingDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MerchantAccount/IndividualDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MerchantAccount/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MerchantAccountGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MerchantGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Modification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MultipleValueNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/MultipleValueOrTextNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/OAuthAccessRevocation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/OAuthCredentials.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/OAuthGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/OAuthResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PaginatedCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PaginatedResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PartialMatchNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PartnerMerchant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PayPalAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PayPalAccountGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PaymentInstrumentType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PaymentMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PaymentMethodGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PaymentMethodNonce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PaymentMethodNonceGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Plan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/PlanGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/RangeNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/ResourceCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Result/CreditCardVerification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Result/Error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Result/Successful.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Result/UsBankAccountVerification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Result/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/RiskData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/SettlementBatchSummary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/SettlementBatchSummaryGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/SignatureService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Subscription.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Subscription/StatusDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Subscription/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/SubscriptionGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/SubscriptionSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Test/CreditCardNumbers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Test/MerchantAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Test/Nonces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Test/Transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Test/TransactionAmounts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Test/VenmoSdk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Test/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/TestingGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/TextNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/ThreeDSecureInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/AddressDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/AmexExpressCheckoutCardDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/AndroidPayCardDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/ApplePayCardDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/CoinbaseDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/CreditCardDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/CustomerDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/EuropeBankAccountDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/IdealPaymentDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/LineItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/MasterpassCardDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/PayPalDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/StatusDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/SubscriptionDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/UsBankAccountDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/VenmoAccountDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/VisaCheckoutCardDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Transaction/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/TransactionGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/TransactionLineItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/TransactionLineItemGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/TransactionSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/TransparentRedirect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/TransparentRedirectGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/UnknownPaymentMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/UsBankAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/UsBankAccountGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/UsBankAccountVerification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/UsBankAccountVerificationGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/UsBankAccountVerificationSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Util.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/VenmoAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/VisaCheckoutCard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/WebhookNotification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/WebhookNotificationGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/WebhookTesting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/WebhookTestingGateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Xml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Xml/Generator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Xml/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/Xml/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTree/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTreeSdk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/Braintree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/SSL/api_braintreegateway_com.ca.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/SSL/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/PaypalSDK.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/IPPCredential.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/IPPThirdPartyAuthorization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/AuthSignature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/MockOAuthDataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/OAuthConsumer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/OAuthDataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/OAuthRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/OAuthServer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/OAuthSignatureMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/OAuthSignatureMethodHmacSha1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/OAuthSignatureMethodPLAINTEXT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/OAuthSignatureMethodRsaSha1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/OAuthToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/OAuthUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Oauth/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Openid/PPOpenIdAddress.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Openid/PPOpenIdError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Openid/PPOpenIdSession.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Openid/PPOpenIdTokeninfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Openid/PPOpenIdUserinfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/Openid/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/PPCertificateCredential.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/PPSignatureCredential.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/PPSubjectAuthorization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/PPTokenAuthorization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Auth/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Common/PPApiContext.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Common/PPArrayUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Common/PPModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Common/PPReflectionUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Common/PPUserAgent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Common/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPAPIService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPBaseService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPConfigManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPConnectionManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPConstants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPCredentialManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPHttpConfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPHttpConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPLoggingLevel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPLoggingManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPXmlFaultMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/PPXmlMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Core/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Handler/GenericSoapHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Handler/IPPHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Handler/PPAuthenticationHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Handler/PPGenericServiceHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Handler/PPOpenIdHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Handler/PPSignatureAuthHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/Handler/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/IPN/PPIPNMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/sdk-core-php/lib/PayPal/IPN/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/css/braintree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/css/paypal-bo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/cz/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/cz/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/cz/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/cz/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/de/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/de/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/de/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/de/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/es/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/es/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/es/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/es/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/fr/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/fr/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/fr/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/fr/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/gr/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/gr/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/gr/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/gr/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/hu/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/hu/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/hu/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/hu/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/il/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/il/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/il/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/il/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/it/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/it/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/it/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/it/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/nl/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/nl/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/nl/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/nl/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/no/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/no/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/no/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/pl/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/pl/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/pl/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/pl/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/pt/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/pt/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/pt/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/pt/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/ru/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/ru/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/ru/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/ru/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/se/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/se/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/sk/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/sk/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/sk/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/tr/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/tr/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/us/buy/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/us/buy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/us/checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ECShortcut/us/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/american_express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/amex.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/blue_tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/braintree-paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/braintree_cards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/card-maxi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/card-mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/diners.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/discover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/discover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/jcb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/kauf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/logo_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/logos/FR_logo_paypal_moyens_paiement_fr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/logos/FR_pp_cc_mark_111x69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/logos/FR_pp_cc_mark_37x23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/logos/FR_pp_cc_mark_74x46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/logos/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/maestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/maestro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/mastercard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/maxi-cards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/mini-cards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/os_braintree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/os_paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/paypal-braintree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/paypal_btm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/paypal_court.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/paypal_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/paypal_sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/ppp-bank-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/protected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/refund.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/unionpay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/img/visa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/js/bo_order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/js/ec_in_context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/js/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/js/order_confirmation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/js/payment_bt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/js/payment_pbt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/js/payment_ppp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/js/shortcut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/js/shortcut_cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/js/shortcut_payment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/admin/block_info.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/admin/configuration.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/front/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/front/payment_bt.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/front/payment_error.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/front/payment_infos.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/front/payment_infos_card.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/front/payment_methods.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/front/payment_pb.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/front/payment_ppp.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/front/payment_sc.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/hook/EC_shortcut.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/hook/PPP_shortcut.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/hook/cart_shortcut.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/hook/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/hook/my-account-footer.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/hook/my-account.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/hook/order_confirmation.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/hook/paypal_order.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Views/templates/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/paypal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Core/Compat/Adapter/Adapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Core/Compat/Adapter/AjaxAdapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Core/Controller/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Core/Controller/Data/Ajax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Core/Controller/Data/Endpoint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Core/Controller/DataController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Core/Controller/LogicController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Core/Controller/UX/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Core/Controller/UX/Widget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Core/Controller/UXController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InfiniPress" beforeDir="false" afterPath="$PROJECT_DIR$/../InfiniPress" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/InfiniShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InfiniShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Windows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Windows.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/config/theme.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/config/theme.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/modules/Copyright/Copyright.php" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/modules/Copyright/Copyright.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/_partials/customer-form.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/_partials/customer-form.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/_partials/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/_partials/footer.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/_partials/login-form.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/_partials/login-form.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/_partials/order-confirmation-table.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/_partials/order-confirmation-table.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/_partials/order-final-summary-table.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/_partials/order-final-summary-table.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/_partials/order-final-summary.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/_partials/order-final-summary.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/addresses.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/addresses.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/checkout-step.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/checkout-step.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/payment.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/payment.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/cart-empty.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/cart-empty.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/checkout-process.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/checkout-process.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infini/templates/checkout/checkout.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Infini/templates/checkout/checkout.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit" beforeDir="false" afterPath="$PROJECT_DIR$/Kit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Kit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kit/src/Assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Kit/src/Components/Widget.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Kit/src/Main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/src/shims-tsx.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Kit/types/tsx.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Kit/types/vue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Kit/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/Plugins/ShoppingCart/controllers/front/ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/Theme/Plugins/ShoppingCart/controllers/front/ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/Plugins/WirePayment/controllers/front/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/Theme/Plugins/WirePayment/controllers/front/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/Plugins/WirePayment/controllers/front/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Theme/Plugins/WirePayment/controllers/front/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/Plugins/ps_checkpayment/controllers/front/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/Theme/Plugins/ps_checkpayment/controllers/front/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/Plugins/ps_emailsubscription/controllers/front/subscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Theme/Plugins/ps_emailsubscription/controllers/front/subscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/Plugins/ps_emailsubscription/controllers/front/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Theme/Plugins/ps_emailsubscription/controllers/front/verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/Plugins/ps_mbo/controllers/admin/AdminPsMboModuleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Theme/Plugins/ps_mbo/controllers/admin/AdminPsMboModuleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theme/Plugins/ps_mbo/ps_mbo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Theme/Plugins/ps_mbo/ps_mbo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/API/ajax.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Controllers/Front/ShoppingCartAjaxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Controllers/Front/ShoppingCartAjaxController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Core/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Core/Compat/Adapter/AdminAdapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Core/Controller/AjaxController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Core/Controller/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Core/Compat/Adapter/FrontAdapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Core/Extension.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Core/Compat/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Core/Utility/Attributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Utility/Attributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Core/Utility/Configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Utility/Configuration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Core/Utility/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Utility/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Core/Utility/Misc.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Utility/Misc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Core/Utility/UX.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Utility/UX.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Models/LinkBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Data/Models/LinkBlock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Models/menutoplinks.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Data/Models/menutoplinks.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Models/reassuranceClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Data/Models/reassuranceClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Modules/ps_checkpayment/controllers/front/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Modules/ps_checkpayment/controllers/front/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Modules/ps_emailsubscription/controllers/front/subscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Modules/ps_emailsubscription/controllers/front/subscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Modules/ps_emailsubscription/controllers/front/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Modules/ps_emailsubscription/controllers/front/verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Modules/ps_mbo/controllers/admin/AdminPsMboModuleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Modules/ps_mbo/controllers/admin/AdminPsMboModuleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Modules/ps_mbo/ps_mbo.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Modules/ps_mbo/ps_mbo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Modules/ps_shoppingcart/controllers/front/ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Modules/ps_shoppingcart/controllers/front/ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Modules/ps_wirepayment/controllers/front/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Modules/ps_wirepayment/controllers/front/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Modules/ps_wirepayment/controllers/front/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Modules/ps_wirepayment/controllers/front/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Repositories/LinkBlockRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Data/Repositories/LinkBlockRepository.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" executionDataType="PHAR" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/UI/composer.json</pharConfigPath>
+    <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/InfiniPayments.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
+              <folding>
+                <element signature="n#__construct#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#install#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#uninstall#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#getContent#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#hookPaymentOptions#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#hookPaymentReturn#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#BankTransferPaymentOption#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#CreditCardPaymentOption#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#SadadPaymentOption#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#PayPalPaymentOption#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#PaymentOptions#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#Banks#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#PaymentInfo#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#checkCurrency#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#Validation#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#Process#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="n#Form#0;n#InfiniPayments#0;n#!!top" />
+                <element signature="e#5777#5819#0#PHP" />
+                <element signature="n#generateForm#0;n#InfiniPayments#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/BankTransfer.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="Mutli Singleton PHP Class" />
+        <option value="Pug File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hook</find>
+      <find>add</find>
+      <find>I agree to</find>
+      <find>unconditionally</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UI/Core/Controller/LogicController.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/PaymentForm.tpl" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/PaymentInfos.tpl" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/IFrame.tpl" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/PaymentReturn.tpl" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/IFrame.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/Validation.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/CreditCardPayment/CreditCardPayment.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/CreditCardPayment/Templates/Form.pug" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/SadadPayment/IFrame.php" />
+        <option value="$PROJECT_DIR$/Backend/Payment/App.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/BankTransferPayment/BankTransferPayment.php" />
+        <option value="V:/Framework/Development/Core/Server/PHP/Utility/Utility.php" />
+        <option value="V:/Framework/Development/Core/Server/PHP/Utility/Template/Template.php" />
+        <option value="V:/Framework/Development/Core/Server/PHP/composer.json" />
+        <option value="V:/Framework/Development/Core/Server/PHP/InfiniCore.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Templates/Info.pug" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Templates/Form.pug" />
+        <option value="$PROJECT_DIR$/Infini/modules/Copyright/Copyright.php" />
+        <option value="$PROJECT_DIR$/Infini/config/theme.yml" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/checkout.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/checkout-process.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/_partials/customer-form.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/addresses.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/checkout-step.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/_partials/footer.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/_partials/login-form.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/_partials/order-confirmation-table.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/_partials/order-final-summary.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/_partials/order-final-summary-table.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/cart-empty.tpl" />
+        <option value="$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/payment.tpl" />
+        <option value="$PROJECT_DIR$/Infini/override/classes/checkout/ConditionsToApproveFinder.php" />
+        <option value="$PROJECT_DIR$/Infini/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Models/AbstractMethodPaypal.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Models/AbstractPaymentMethod.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Models/index.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Models/PaymentMethodBT.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalNVP/vendor/composer/autoload_namespaces.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalNVP/vendor/composer/autoload_psr4.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/vendor/composer/index.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalNVP/vendor/composer/installed.json" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/vendor/composer/installed.json" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayment/InfiniPayment.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/PaymentExtension.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/InfiniPayments.php" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/BankTransfer.pug" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/Sadad.pug" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/PayPal.pug" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/CreditCard.pug" />
+        <option value="$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/BankTransfer.pug" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PHPCSFixerProjectConfiguration">
+    <option name="selectedConfigurationId" value="DEFAULT_INTERPRETER" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/Dev/package.json" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/UI/Vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/UI/Vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/phug" />
+      <path value="$PROJECT_DIR$/UI/Vendor/composer" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/lexer" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/event" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/compiler" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/reader" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/util" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/parser" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/dependency-injection" />
+      <path value="$PROJECT_DIR$/UI/Vendor/js-phpize/js-phpize-phug" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/ast" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/renderer" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/formatter" />
+      <path value="$PROJECT_DIR$/UI/Vendor/js-phpize/js-phpize" />
+      <path value="$PROJECT_DIR$/UI/Vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/UI/Vendor/symfony/polyfill-mbstring" />
+      <path value="S:/classes" />
+      <path value="S:/src/Core" />
+      <path value="S:/src/Adapter" />
+      <path value="S:/src/PrestaShopBundle" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="31" />
+    <option name="width" value="1920" />
+    <option name="height" value="1009" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="InfiniShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniShop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Payment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="InfiniPayments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="InfiniPayments" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InfiniShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InfiniShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Payment" type="462c0819:PsiDirectoryNode" />
+              <item name="InfiniPayments" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Kit/node_modules/@vue/web-component-wrapper/dist/vue-wc-wrapper.js&#10;D:/Development/Projects/InfinitiShop/src/Kit/dist/demo.html" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.14.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Infini" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="ts.external.directory.path" value="D:\Programs\JetBrains\apps\PhpStorm\ch-0\183.4886.46\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="V:\Platform\InfiniNow\InfiniShop\Plugins\Payment\InfiniPayments\Views" />
+      <recent name="V:\Platform\InfiniNow\InfiniShop\Plugins\Payment\InfiniPayments\Templates\Return" />
+      <recent name="V:\Platform\InfiniNow\InfiniShop\Plugins\Payment\InfiniPayments\Templates\Info" />
+      <recent name="V:\Platform\InfiniNow\InfiniShop\Plugins\Payment\InfiniPayments\Templates\Forms" />
+      <recent name="V:\Platform\InfiniNow\InfiniShop\Plugins\Payment\InfiniPayment\Vendor\PayPal" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\Platform\InfiniNow\InfiniShop\Plugins\Payment\InfiniPayment" />
+      <recent name="V:\Platform\InfiniNow\InfiniShop\Backend" />
+      <recent name="V:\Platform\InfiniNow\InfiniShop\Plugins\Payment\BankTransferPayment" />
+      <recent name="V:\Platform\InfiniNow\InfiniShop\Plugins\Payment\CreditCardPayment" />
+      <recent name="V:\Platform\InfiniNow\InfiniShop\Plugins\Payment\PayPalPayment" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Kit/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0e3709e-a67e-447f-ba92-3e1cbf409bc7" name="Default Changelist" comment="" />
+      <created>1546179146198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546179146198</updated>
+      <workItem from="1546179147408" duration="1259000" />
+      <workItem from="1546180433700" duration="2108000" />
+      <workItem from="1546182558848" duration="2076000" />
+      <workItem from="1546238310444" duration="15345000" />
+      <workItem from="1546365242347" duration="2607000" />
+      <workItem from="1546415687796" duration="10362000" />
+      <workItem from="1546489864768" duration="4513000" />
+      <workItem from="1546551689049" duration="13228000" />
+      <workItem from="1546635506360" duration="34093000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85591000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="2" weight="0.32995737" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32998884" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21181718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32998884" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="DB Browser" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="TypeScript" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Remote Host" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/PrestaShop" />
+    </ignored-roots>
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>V:\Assets\Frameworks\WordPress</wordpressPath>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="InfiniShop" type="b2602c69:ProjectViewProjectNode" />
+        <item name="InfiniShop" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://S:/src/Core/Payment/PaymentOption.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Info/Info.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/modules/Copyright/Copyright.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/config/theme.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="55" column="6" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/order-confirmation.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/checkout-process.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/checkout.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/checkout-step.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/addresses.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/_partials/customer-form.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/_partials/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/_partials/login-form.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/_partials/order-confirmation-table.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/_partials/order-final-summary.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/cart-empty.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/override/classes/checkout/ConditionsToApproveFinder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="52" column="51" lean-forward="true" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/_partials/steps/payment.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/templates/checkout/_partials/order-final-summary-table.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/Reference/paypal/paypal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infini/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/PaypalSDK.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/paypal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4899" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/PayPal/rest-api-sdk-php/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Models/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/PaymentMethod/PaymentMethodPPP.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/PayPal/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/PaymentMethod/PaymentMethodEC.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/PaymentMethod/PaymentMethodBT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Models/PaymentMethod/AbstractPaymentMethod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/vendor/composer/autoload_namespaces.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="16" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/PayPal/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/PayPal/composer/autoload_namespaces.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/vendor/composer/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/vendor/composer/installed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/vendor/composer/autoload_static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/paypalREST/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/PayPal/composer/installed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/PayPal/PPBootStrap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayment/Vendor/PayPal/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/BrainTreeSdk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Vendor/BrainTree/Braintree.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/PaymentExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/InfiniPayments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
+          <folding>
+            <element signature="n#__construct#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#install#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#uninstall#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#getContent#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#hookPaymentOptions#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#hookPaymentReturn#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#BankTransferPaymentOption#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#CreditCardPaymentOption#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#SadadPaymentOption#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#PayPalPaymentOption#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#PaymentOptions#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#Banks#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#PaymentInfo#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#checkCurrency#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#Validation#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#Process#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="n#Form#0;n#InfiniPayments#0;n#!!top" />
+            <element signature="e#5777#5819#0#PHP" />
+            <element signature="n#generateForm#0;n#InfiniPayments#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/PayPal.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/Sadad.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/CreditCard.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Payment/InfiniPayments/Templates/Forms/BankTransfer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

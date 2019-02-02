@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Infinitivity">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/sam/shop/modules/InfiniPayment" local="$PROJECT_DIR$/Plugins/Payment/InfiniPayment" web="" />
+            <mapping deploy="/var/www/sam/shop/Framework" local="V:/Framework/Development/Core/Server/PHP" />
+            <mapping deploy="/var/www/sam/shop/themes/infini" local="$PROJECT_DIR$/Infini" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+{
+    "information": {
+        "brand": {
+            "title": "Information",
+            "description": "Some info about our brand."
+        },
+        "location": {
+            
+        },
+        "copyright": {
+            "owner": "Infinitivity",
+            "developer": "Infinitivity"
+        }
+    },
+    "links": []
+}

@@ -1,0 +1,166 @@
+name: Infiniti
+display_name: Infiniti
+version: 1.0.0
+author:
+  name: "Abdulrahman Alhamoudi"
+  email: "admin@infinitivity.io"
+  url: "http://www.infinitivity.io"
+
+meta:
+  compatibility:
+      from: 1.7.0.0
+      to: ~
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+
+# assets:
+#   js:
+#     all:
+#       - id: ui
+#         path: ../../assets/kit.js
+#   css:
+#     all:
+#       - id: ui
+#         path: ../../assets/kit.css
+
+
+
+global_settings:
+  configuration:
+    PS_IMAGE_QUALITY: png
+  # modules:
+  #  to_enable:
+  #    - accountlinks
+  #    - banner
+  #    - contactinfo
+  #    - copyright
+  #    - customtext
+  #    - imageslider
+  #    - information
+  #    - linklist
+  #    - newslettersubscription
+  #    - storeinfo
+  #  to_disable:
+  #    - ps_banner
+  #    - ps_contactinfo
+  #    - ps_customeraccountlinks
+  #    - ps_customtext
+  #    - ps_imageslider
+  #    - ps_linklist
+  hooks:
+    custom_hooks:
+      - name: displaySlider
+        title: displaySlider
+        description: Display image sliders
+      - name: displaySubscription
+        title: displaySubscription
+        description: Display subscription form
+      - name: displayInformation
+        title: displayInformation
+        description: Display store information
+      - name: displayLinks
+        title: displayLinks
+        description: Display links
+      - name: displayLocation
+        title: displayLocation
+        description: Display store location
+      - name: displayCopyright
+        title: displayCopyright
+        description: Display copyright information
+    modules_to_hook:
+      displaySlider:
+        - ui
+      displayNav1:
+        - ui
+      displayNav2:
+        - ui
+      displayTop:
+        - ui
+      displayHome:
+        - ui
+      displaySubscription:
+        - ui
+      displayInformation:
+        - ui
+      displayLinks:
+        - ui
+      displayLocation:
+        - ui
+      displayCopyright:
+        - ui
+      displayLeftColumn:
+        - ui
+      displaySearch:
+        - ui
+      displayProductAdditionalInfo:
+        - ui
+      displayReassurance:
+        - ui
+      displayOrderConfirmation2:
+        - ui
+      displayCrossSellingShoppingCart:
+        - ui
+
+  image_types:
+    cart_default:
+      width: 125
+      height: 125
+      scope: [products]
+    small_default:
+      width: 98
+      height: 98
+      scope: [products, categories, manufacturers, suppliers]
+    medium_default:
+      width: 452
+      height: 452
+      scope: [products, manufacturers, suppliers]
+    home_default:
+      width: 250
+      height: 250
+      scope: [products]
+    large_default:
+      width: 800
+      height: 800
+      scope: [products, manufacturers, suppliers]
+    category_default:
+      width: 141
+      height: 180
+      scope: [categories]
+    stores_default:
+      width: 170
+      height: 115
+      scope: [stores]
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    category: layout-left-column
+    best-sales: layout-left-column
+    new-products: layout-left-column
+    prices-drop: layout-left-column
+    contact: layout-left-column
+
+# dependencies:
+#   modules:
+#     - accountlinks
+#     - banner
+#     - contactinfo
+#     - copyright
+#     - customtext
+#     - imageslider
+#     - information
+#     - linklist
+#     - newslettersubscription
+#     - storeinfo

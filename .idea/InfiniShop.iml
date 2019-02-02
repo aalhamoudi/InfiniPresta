@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/js-phpize/js-phpize" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/js-phpize/js-phpize-phug" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/ast" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/compiler" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/event" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/parser" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/phug" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/reader" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/renderer" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/phug/util" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/UI/Vendor/symfony/var-dumper" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Framework" />
+    <orderEntry type="module" module-name="Framework" />
+  </component>
+</module>

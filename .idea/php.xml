@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpAnalysisConfiguration" call_tree_analysis_depth="2" />
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/UI/Vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/UI/Vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/phug" />
+      <path value="$PROJECT_DIR$/UI/Vendor/composer" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/lexer" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/event" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/compiler" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/reader" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/util" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/parser" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/dependency-injection" />
+      <path value="$PROJECT_DIR$/UI/Vendor/js-phpize/js-phpize-phug" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/ast" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/renderer" />
+      <path value="$PROJECT_DIR$/UI/Vendor/phug/formatter" />
+      <path value="$PROJECT_DIR$/UI/Vendor/js-phpize/js-phpize" />
+      <path value="$PROJECT_DIR$/UI/Vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/UI/Vendor/symfony/polyfill-mbstring" />
+      <path value="S:/classes" />
+      <path value="S:/src/Core" />
+      <path value="S:/src/Adapter" />
+      <path value="S:/src/PrestaShopBundle" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/UI/Vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
